@@ -1,0 +1,51 @@
+.*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height:1.5em;
+}
+
+/* Flexbox for Navbar  */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background: #df4a4a;
+    color:white;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ /* Hero Section using Grid/Flex  */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: #fff;
+}
+
+
